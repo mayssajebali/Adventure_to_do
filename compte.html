@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adventure To Do-Acceuil</title>
+</head>
+<body>
+	<header>
+
+<img src="img/Adventure To Do.gif" width="80" height="80">
+<h1>Adventure to do <span> le spécialiste du voyage d’aventure : découverte, randonnée,camping</span></h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="acceuil.html" >Acceuil</a></li>
+    <li><a href="nouvautes.html">Nouvautés</a></li>
+    <li class="dropdown"><a href="#" >Déstinations</a>
+      <div class="dropdown-content">
+                    <a href="afrique.html" class="dop" >Afrique </a>
+                    <a href="amerique.html" class="dop" >Amérique </a>
+                    <a href="europe.html" class="dop">Europe </a>
+                    </div>
+    </li>
+    <li><a href="inscription.html" >S'inscrire</a></li>
+    <li><a href="seconnecter.html" class="active">Se connecter</a></li>
+  </ul>
+</nav>
+<section class="sec6 ss" style="top: 200px;width: 480px;height: 730px;"> 
+<form name="f1" method="post" action="">
+    <legend><h2 style="text-align: center;padding: 20px;">Inscrivez-vous</h2></legend>
+      <p style="text-align:center;padding:5px 15px;font-style: italic;">Accédez à toutes les informations sur tous les voyages, gérez vos favoris & vos voyages, créez votre blog photos, contactez votre tribu ... et bien plus encore !</p>
+      <br><br>
+        <label>Civilité</label>
+        <select>
+          <option value="ms">Monsieur</option>
+          <option value="mme">Madame</option>
+        </select>
+        <label for="fname">Nom:</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom.." required>
+        <label for="pname">Prénom:</label>
+        <input type="text" id="pnom" name="pnom" placeholder="Votre prénom.."required><br><br>
+        <label for="pname">Téléphone:</label>
+        <input type="text" id="tel" name="tel" placeholder="Votre telephone.."required><br><br>
+        <label for="email" >Adresse e-mail:</label><br>
+        <input type="e-mail" name="email" placeholder="url@.com" required>
+        <label for="email" >Mot de passe:</label><br>
+        <input type="password" name="motdepasse" placeholder="*******" required><br><br>
+        <input type="submit" value="S'inscrire">
+
+    </form>
+</section>
+</body>
+</html>
